@@ -1,0 +1,2 @@
+C:\Users\Randy\source\repos\pfgShooter\Debug\pfgShooter.exe
+C:\Users\Randy\source\repos\pfgShooter\Debug\pfgShooter.pdb

@@ -1,0 +1,29 @@
+﻿Build started 2/11/2021 5:55:32 AM.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\Randy\source\repos\pfgShooter\pfgShooter.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\pfgShooter.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>C:\Users\Randy\source\repos\pfgShooter\Source.cpp(452,44): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+     1>C:\Users\Randy\source\repos\pfgShooter\Source.cpp(456,38): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Randy\source\repos\pfgShooter\Debug\pfgShooter.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\Randy\source\repos\pfgShooter\Debug\pfgShooter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Randy\source\repos\pfgShooter\Debug\pfgShooter.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Source.obj
+         pfgShooter.vcxproj -> C:\Users\Randy\source\repos\pfgShooter\Debug\pfgShooter.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\pfgShooter.tlog\unsuccessfulbuild".
+         Touching "Debug\pfgShooter.tlog\pfgShooter.lastbuildstate".
+     1>Done Building Project "C:\Users\Randy\source\repos\pfgShooter\pfgShooter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\Randy\source\repos\pfgShooter\pfgShooter.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         C:\Users\Randy\source\repos\pfgShooter\Source.cpp(452,44): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+         C:\Users\Randy\source\repos\pfgShooter\Source.cpp(456,38): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.61
